@@ -1,0 +1,19 @@
+{
+  "name": "overlay",
+  "version": "1.0.0",
+  "description": "A program to create a Node.js overlay server",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mustache-express": "^1.3.2",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}

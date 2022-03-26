@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Overlay</title>
+    <base href="/"/>
+    <link rel="stylesheet" href="/css/overlay.css">
+  </head>
+  <body>
+<div>
+Hello World
+</div>
+<p id='someData'></p>
+<style>
+
+</style>
+<script>
+//script to setup username/profile pic
+var data = "<%= serverData %>";
+
+document.getElementById("someData").innerHTML = data;
+</script>
+<script src="/js/overlay.js"></script>
+</body>
+</html>
