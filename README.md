@@ -1,7 +1,10 @@
 TWITCH BASIC OVERLAY
 
 
-The purpose of this project is to provide a basic localhost endpoint for OBS to view
+The purpose of this project is to provide a basic localhost endpoint for OBS to view.
+Developed using Node.js with Express.js, attached with Mustache for basic functionality.
+
+Attach the browser source to http://localhost:8080 (configurable port in start.js)
 
 Use case: counters, full overlays, sound source, etc
 
